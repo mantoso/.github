@@ -1,0 +1,99 @@
+---
+
+name: 💡 Feature Request
+description: Have a great idea for a new feature? We'd love to know!
+title: "[Feature]: "
+labels:
+  - feature-request 💡
+assignees:
+  - maintainers
+body:
+
+  - type: markdown
+    attributes:
+      value: >-
+        :tada: :tada: Thank you for taking the time to request a new feature for this project :tada: :tada:
+
+  - type: markdown
+    attributes:
+      value: >-
+        Contributions are what make the open-source community such an amazing place to learn, inspire, and create.
+        Any contributions you make will benefit everyone else and are greatly appreciated.
+
+  - type: textarea
+    id: describe-solution
+    attributes:
+      label: Describe your new feature
+      description: >-
+        Describe a clear and concise description of feature that you want.
+    validations:
+      required: true
+
+  - type: textarea
+    id: related-to-problem
+    attributes:
+      label: Is your feature request related to a problem? Please describe.
+      description: A clear and concise description of what the problem is.
+      placeholder: I'm always frustrated when [...]
+    validations:
+      required: false
+
+  - type: textarea
+    id: additional-context
+    attributes:
+      label: Additional context
+      description: >-
+        Add any other context or screenshots about the feature request here.
+    validations:
+      required: false
+
+  - type: dropdown
+    id: importance
+    attributes:
+      label: How important is this feature to you?
+      multiple: false
+      options:
+        - 1 (Not too important)
+        - "2"
+        - "3"
+        - "4"
+        - 5 (Can't work without it!)
+    validations:
+      required: true
+
+  - type: checkboxes
+    attributes:
+      label: Self-service
+      description: >-
+        If want to contribute to this issue, please check the box below. This will let us and other people looking for contributions know that someone's working on it.
+        If you check this box, please send a pull request within 7 days so we do not delegate this issue to someone else.
+      options:
+        - label: >-
+            I will address this request myself.
+
+  - type: input
+    id: contact
+    attributes:
+      label: Contact Details
+      description: How can we get in touch with you if we need more info?
+      placeholder: ex. email@example.com
+    validations:
+      required: false
+
+  - type: checkboxes
+    id: checklist
+    attributes:
+      label: Before submitting
+      description: >-
+        Please ensure your request fulfills all of the following requirements. If you are not sure what a specific
+        requirement means, follow the link to learn more and understand why it is necessary before ticking the boxes.
+        This will save maintainers and you valuable time.
+      options:
+        - label: >-
+            I have read the [Contributing Guidelines](../blob/main/CONTRIBUTING.md).
+          required: true
+        - label: >-
+            I agree to follow the Mantoso [Code of Conduct](../blob/main/CODE_OF_CONDUCT.md)
+          required: true
+
+...

@@ -1,0 +1,139 @@
+---
+
+name: 🐞 Report A Bug
+description: Something not working? Report a bug!
+title: "[Bug]: "
+labels:
+  - bug 🐞
+  - triage 📑
+assignees:
+  - maintainers
+body:
+
+  - type: markdown
+    attributes:
+      value: >-
+        :bug: Thanks for taking the time to fill out this bug report!
+
+  - type: markdown
+    attributes:
+      value: >-
+        Contributions are what make the open-source community such an amazing place to learn, inspire, and create.
+        Any contributions you make will benefit everyone else and are greatly appreciated.
+
+  - type: checkboxes
+    id: new-bug
+    attributes:
+      label: Is there an existing issue for this?
+      description: >-
+        Search open and closed issues to determine if an issue already exists for the bug you encountered.
+      options:
+        - label: I have searched existing issues
+          required: true
+
+  - type: textarea
+    id: context
+    attributes:
+      label: Context
+      description: >-
+        This field is optional. It helps if you provide additional context for the bug you want to report, thus helping us better
+        understand what you are working on and what you are trying to achieve. If the context is not relevant, you can
+        leave this field empty.
+        [More](https://handbook.mantoso.com/engineering/github/contributing/reporting-a-bug/#context)
+    validations:
+      required: false
+
+  - type: textarea
+    id: description
+    attributes:
+      label: Bug description
+      description: >-
+        Please give a detailed description of the bug. Explain how this module does not behave as you would
+        expect. Be as specific as possible. If you have found a workaround or a fix for the problem, please let us
+        (and all other users) know.
+        [More](https://handbook.mantoso.com/engineering/github/contributing/reporting-a-bug/#description)
+    validations:
+      required: true
+
+  - type: textarea
+    id: related-links
+    attributes:
+      label: Related links
+      description: >-
+        List links to possibly related (open and closed) [issues](https://github.com/mantoso/.github/issues)
+        and [discussions](https://github.com/mantoso/.github/discussions)
+        you encountered when searching our issue tracker.
+        [More](https://handbook.mantoso.com/engineering/github/contributing/reporting-a-bug/#related-links)
+      placeholder: |-
+        - [Reporting a bug](https://handbook.mantoso.com/engineering/github/contributing/reporting-a-bug/)
+        -
+        -
+    validations:
+      required: false
+
+  - type: textarea
+    id: steps-to-reproduce
+    attributes:
+      label: Steps to reproduce
+      description: >-
+        Provide a detailed list of instructions as a guide to help us recreate the problem using your
+        instructions. Be as specific as possible and as verbose as necessary – try not to leave anything out.
+        [More](https://handbook.mantoso.com/engineering/github/contributing/reporting-a-bug/#steps-to-reproduce)
+      placeholder: |-
+        1. ...
+        2. ...
+        3. ...
+    validations:
+      required: true
+
+  - type: dropdown
+    id: blocker
+    attributes:
+      label: Does the bug block you from using this project daily?
+      description: All feedback will be reviewed, even if you select 'No'.
+      multiple: false
+      options:
+        - No, this bug is not a blocker
+        - Yes, this bug prevents me from using this project.
+    validations:
+      required: true
+
+  - type: checkboxes
+    attributes:
+      label: Self-service
+      description: >-
+        If want to contribute to this issue, please check the box below. This will let us and other people looking for contributions know that someone's working on it.
+        If you check this box, please send a pull request within 7 days so we do not delegate this issue to someone else.
+      options:
+        - label: >-
+            I will address this request myself.
+
+  - type: input
+    id: contact
+    attributes:
+      label: Contact Details
+      description: How can we get in touch with you if we need more info?
+      placeholder: ex. email@example.com
+    validations:
+      required: false
+
+  - type: checkboxes
+    id: checklist
+    attributes:
+      label: Before submitting
+      description: >-
+        Please ensure your request fulfills all of the following requirements. If you are not sure what a specific
+        requirement means, follow the link to learn more and understand why it is necessary before ticking the boxes.
+        This will save maintainers and you valuable time.
+      options:
+        - label: >-
+            I have read and followed the [bug reporting guidelines](https://handbook.mantoso.com/engineering/github/contributing/reporting-a-bug/).
+          required: true
+        - label: >-
+            I have read the [Contributing Guidelines](../blob/main/CONTRIBUTING.md).
+          required: true
+        - label: >-
+            I agree to follow the Mantoso [Code of Conduct](../blob/main/CODE_OF_CONDUCT.md)
+          required: true
+
+...

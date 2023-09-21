@@ -1,0 +1,26 @@
+root = true
+
+[*]
+charset = utf-8
+end_of_line = lf
+indent_size = 2
+indent_style = space
+insert_final_newline = true
+max_line_length = 120
+trim_trailing_whitespace = true
+
+[*.md]
+max_line_length = 0
+trim_trailing_whitespace = false
+
+[*.{py,sh}]
+indent_size = 4
+# https://black.readthedocs.io/en/stable/the_black_code_style/current_style.html#line-length
+max_line_length = 88
+
+[{Makefile, makefile, GNUmakefile, Makefile.*}]
+indent_size = 4
+indent_style = tab
+
+[COMMIT_EDITMSG]
+max_line_length = 0
