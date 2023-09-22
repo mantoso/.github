@@ -15,7 +15,7 @@ body:
   - type: textarea
     id: context
     attributes:
-      label: Context of to question
+      label: Context of your question
       description: >-
         This field is optional. It helps if you provide additional context for your question, thus helping us better
         understand what you are working on and what you are trying to achieve.
