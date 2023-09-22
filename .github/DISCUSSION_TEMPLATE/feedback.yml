@@ -1,0 +1,12 @@
+---
+
+body:
+  - type: textarea
+    id: description
+    attributes:
+      label: description
+      description: We value your feedback. It is what helps us improve.
+    validations:
+      required: true
+
+...
