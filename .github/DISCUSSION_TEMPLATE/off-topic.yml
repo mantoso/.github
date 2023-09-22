@@ -1,0 +1,12 @@
+---
+
+body:
+  - type: textarea
+    id: off-topic
+    attributes:
+      label: Topic
+      description: Tell us about your off-topic topic?
+    validations:
+      required: true
+
+...
