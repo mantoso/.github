@@ -9,7 +9,6 @@ body:
   - type: textarea
     id: announcement
     attributes:
-      label: Announcement
       description: Please describe the announcement in as much detail as possible.
       placeholder: Make an announcement here...
     validations:

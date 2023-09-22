@@ -6,10 +6,8 @@ title: "[✨]:"
 labels:
   - enhancement ✨
 assignees:
-  - maintainers
-
+  - triage
 body:
-
   - type: markdown
     attributes:
       value: >-

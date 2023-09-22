@@ -6,9 +6,8 @@ title: "[💡]: "
 labels:
   - feature-request 💡
 assignees:
-  - maintainers
+  - triage
 body:
-
   - type: markdown
     attributes:
       value: >-

@@ -7,7 +7,7 @@ labels:
   - bug 🐞
   - triage 📑
 assignees:
-  - maintainers
+  - triage
 body:
 
   - type: markdown
