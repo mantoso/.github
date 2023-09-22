@@ -2,6 +2,7 @@
 
 body:
   - type: textarea
+    id: summary
     attributes:
       label: Summary
       description: Tell us about your idea.
@@ -9,16 +10,19 @@ body:
       required: true
 
   - type: textarea
+    id: implementation-ideas
     attributes:
       label: Initial implementation ideas
       description: What are some ways you think we could go about this? Do you see any trade-offs between them?
 
   - type: textarea
+    id: fears
     attributes:
       label: Fears
       description: Are there any problems you're worried about running into?
 
   - type: textarea
+    id: open-questions
     attributes:
       label: Open questions
       description: What things do you definitely need answers on before we dig into implementation?
