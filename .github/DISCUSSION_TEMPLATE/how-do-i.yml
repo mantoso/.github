@@ -27,7 +27,7 @@ body:
     attributes:
       label: Example
       description: >-
-        This field is optional. If you have some code or configuration that you want so share here is a good place.
+        This field is optional. If you have example code or configuration that you want so share.
         Markdown fenced codeblocks go a long way for readability.
       value: |
         ```console
