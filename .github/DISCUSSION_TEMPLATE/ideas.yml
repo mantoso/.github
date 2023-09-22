@@ -5,8 +5,8 @@ body:
     attributes:
       label: Summary
       description: Tell us about your idea.
-      validations:
-        required: true
+    validations:
+      required: true
 
   - type: textarea
     attributes:
