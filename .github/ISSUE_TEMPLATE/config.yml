@@ -17,9 +17,25 @@ newPRWelcomeComment: >-
   In the meantime, please check out the [contributing guidelines](../blob/main/CONTRIBUTING.md).
 
 contact_links:
-  - name: Ask a question
-    url: https://github.com/mantoso/.github/discussions
-    about: Have a question or need help? Connect with the community on our discussion board.
+  - name: 💜 Feedback
+    url: https://github.com/orgs/mantoso/discussions/categories/feedback
+    about: Tell us what could be improved about the Mantoso product.
+
+  - name: 💡 Help
+    url: https://github.com/orgs/mantoso/discussions/categories/help
+    about: Have a question or need help? Connect with the community.
+
+  - name: 🙏️ How do I
+    url: https://github.com/orgs/mantoso/discussions/categories/how-do-i
+    about: Ask how to accomplish a given task in an area covered by Mantoso.
+
+  - name: 💬️ Join Slack for Real-time Chat
+    url: https://communityinviter.com/apps/mantoso/welcome
+    about: Real-time chat including QA, Dev, Events and more.
+
+  - name: 🐞 Issues for Website, Docs
+    url: https://github.com/mantoso/mantoso-site/issues
+    about: Hey, we have one dedicated repo for the website and docs.
 
   - name: Mantoso Handbook
     url: https://handbook.mantoso.com
