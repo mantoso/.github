@@ -7,7 +7,7 @@ body:
     id: question
     attributes:
       label: Question
-      description: |
+      description: >-
         Ask your question in as much detail as you like.
     validations:
       required: true
@@ -15,7 +15,7 @@ body:
   - type: textarea
     id: context
     attributes:
-      label: Context of the question
+      label: Context of to question
       description: >-
         This field is optional. It helps if you provide additional context for your question, thus helping us better
         understand what you are working on and what you are trying to achieve.
@@ -24,11 +24,11 @@ body:
 
   - type: textarea
     id: example-code
-    description: >-
-      This field is optional. If you have some code or configuration that you want so share here is a good place.
-      Markdown fenced codeblocks go a long way for readability.
     attributes:
-      label: Example Code
+      label: Example
+      description: >-
+        This field is optional. If you have some code or configuration that you want so share here is a good place.
+        Markdown fenced codeblocks go a long way for readability.
       value: |
         ```console
         $
@@ -41,10 +41,12 @@ body:
         ```
     validations:
       required: false
+
   - type: textarea
     id: reference
     attributes:
       label: Reference
+      description: This field is optional. If you have any external references you can put them here.
       value: |
         *
     validations:
