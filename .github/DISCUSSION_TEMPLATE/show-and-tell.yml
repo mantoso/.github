@@ -1,0 +1,12 @@
+---
+
+body:
+  - type: textarea
+    id: show-and-tell
+    attributes:
+      label: Show and tell
+      description: Tell us about something you made.
+    validations:
+      required: true
+
+...
