@@ -2,7 +2,7 @@
 
 name: 💡 Feature Request
 description: Have a great idea for a new feature? We'd love to know!
-title: "[Feature]: "
+title: "[💡]: "
 labels:
   - feature-request 💡
 assignees:
