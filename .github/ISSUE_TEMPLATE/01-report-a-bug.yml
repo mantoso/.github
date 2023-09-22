@@ -2,7 +2,7 @@
 
 name: 🐞 Report A Bug
 description: Something not working? Report a bug!
-title: "[Bug]: "
+title: "[🐞]: "
 labels:
   - bug 🐞
   - triage 📑
