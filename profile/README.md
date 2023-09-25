@@ -9,7 +9,7 @@ We deliver *well-architected, reliable and scalable Infrastructure As Code* to e
 
 ## Who we are?
 
-We are [Cloud Infrastructure Architects](https://mantoso.com), we are working to create a better way to manage the complexities of AWS infrastructure.
+As [Cloud Infrastructure Architects](https://mantoso.com), we are working to create a better way to manage the complexities of AWS infrastructure.
 
 As a United States based cloud consultancy and cloud management service provider, we help companies build secure, cost-efficient and scalable cloud solutions.
 
