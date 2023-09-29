@@ -1,5 +1,5 @@
 [![GitHub Stars](https://img.shields.io/github/stars/mantoso?style=social)](https://github.com/mantoso)
-[![GitHub Followers](https://img.shields.io/github/followers/mantoso?style=social)](https://github.com/orgs/mantoso/followers)
+[![GitHub followers](https://img.shields.io/github/followers/mantoso?style=social)](https://github.com/orgs/mantoso/followers)
 [![Hits](https://komarev.com/ghpvc/?username=mantoso&color=red&label=Hits)](https://github.com/mantoso)
 <img align="right" src="https://avatars.githubusercontent.com/u/19550840?s=100&v=4">
 
